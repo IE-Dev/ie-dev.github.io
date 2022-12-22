@@ -1,0 +1,42 @@
+footer {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+
+  border-color: rgba(111, 54, 202);
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  background-color: rgb(22,0,56);
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  #network-links, #dynamic-time, #copyright {
+    display: inline-block;
+    width: 100%;
+  }
+
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #network-links {
+    text-align: left;
+  }
+
+  #dynamic-time {
+    text-align: center;
+  }
+
+  #copyright {
+    text-align: right;
+  }
+}
