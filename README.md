@@ -24,7 +24,7 @@ php build.php
 
 ## Autocomplete Requirements
 
-your endpoint should accept the following parameters `?query=test&lang=uk-en`
+Your endpoint should accept the following parameters `?query=test&lang=uk-en`
 
 The response should be in the following format:
 
@@ -32,6 +32,6 @@ The response should be in the following format:
 [{"phrase":"test"},{"phrase":"testwise"},{"phrase":"test internet speed"},{"phrase":"testosterone"},{"phrase":"testing"},{"phrase":"test microphone"},{"phrase":"testament"},{"phrase":"test camera"}]
 ```
 
-I also recommend that you lock it down to specific domains / IP addresses, this will avoid hitting rate limiting and large charges from your provider
+I also recommend that you lock it down to specific domains / IP addresses, this will avoid hitting rate limiting and large charges from your provider.
 
-If you are struggling with setting up autocomplete, feel free to message me and I'll try to get back to you with some hint and tips.
+If you are struggling with setting up autocomplete, feel free to message me and I'll try to get back to you with some hints and tips.
