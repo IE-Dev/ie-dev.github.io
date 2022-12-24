@@ -15,9 +15,9 @@
   grid-template-columns: calc(75% - 20px) 25%;
   grid-template-rows: 1fr;
   column-gap: 20px;
-  background-color: rgb(22,0,56);
+  background-color: $panel;
   border-radius: 1em;
-  border-color: rgb(111, 54, 202);
+  border-color: $border;
   border-width: 6px;
   border-style: solid;
 }
@@ -35,7 +35,7 @@
 
 .panel-image {
   background:
-          /*linear-gradient(to right, rgb(111, 54, 202), rgb(111, 54, 202)),*/
+          /*linear-gradient(to right, $image-overlay-start, $image-overlay-end),*/
           url("/image/featured.webp");
   background-size: cover;
   background-position: 30% 40%;
@@ -46,7 +46,7 @@
   /*background-blend-mode: hue, normal;*/
 
   &::before {
-    background: rgba(111, 54, 202, 0.32);
+    background: transparentize($image-overlay, .68);
     content: " ";
     z-index: 1000;
     width: 100%;

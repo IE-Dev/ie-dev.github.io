@@ -17,6 +17,9 @@ columns:
     - name: Reddit
       type: link
       url: https://www.reddit.com/
+    - name: Amazon
+      type: link
+      url: https://www.amazon.co.uk/
     - name: Microsoft Rewards
       type: link
       url: https://rewards.bing.com/
@@ -30,6 +33,9 @@ columns:
     - name: Linode
       type: link
       url: https://cloud.linode.com/
+    - name: AWS
+      type: link
+      url: https://eu-west-2.console.aws.amazon.com/console/home?nc2=h_ct&region=eu-west-2
     - name: Docker Hub
       type: link
       url: https://hub.docker.com/

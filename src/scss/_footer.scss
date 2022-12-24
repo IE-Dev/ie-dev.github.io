@@ -3,12 +3,12 @@ footer {
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
 
-  border-color: rgba(111, 54, 202);
+  border-color: $border;
   border-width: 6px 6px 0 6px;
   border-style: solid;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
-  background-color: rgb(22,0,56);
+  background-color: $panel;
   padding: 1em;
   position: fixed;
   bottom: 0;
@@ -24,7 +24,7 @@ footer {
   }
 
   a {
-    color: #FFF;
+    color: $text;
     text-decoration: none;
   }
 
