@@ -26,51 +26,66 @@ columns:
   column1:
     - name: development
       type: title
-      value: "Development"
+      value: "Hosting & Repos"
     - name: GitHub
       type: link
       url: https://github.com/
-    - name: Linode
+    - name: Bitbucket
       type: link
-      url: https://cloud.linode.com/
-    - name: AWS
-      type: link
-      url: https://eu-west-2.console.aws.amazon.com/console/home?nc2=h_ct&region=eu-west-2
+      url: https://bitbucket.org/
     - name: Docker Hub
       type: link
       url: https://hub.docker.com/
     - name: Cloudflare
       type: link
       url: https://dash.cloudflare.com/
+    - name: AWS
+      type: link
+      url: https://eu-west-2.console.aws.amazon.com/console/home?nc2=h_ct&region=eu-west-2
+    - name: Linode
+      type: link
+      url: https://cloud.linode.com/
+    - name: SpinupWP
+      type: link
+      url: https://spinupwp.app/dashboard
   column2:
+    - name: homelab
+      type: title
+      value: "Development"
+    - name: BugSnag
+      type: link
+      url: https://app.bugsnag.com/
+    - name: ConfigCat
+      type: link
+      url: https://app.configcat.com/
+    - name: MailHog
+      type: link
+      url: http://localhost:8025/#
+    - name: MeiliSearch
+      type: link
+      url: http://localhost:7700/
+    - name: RabbitMQ Management
+      type: link
+      url: http://localhost:15672/
+    - name: RedisInsight
+      type: link
+      url: http://localhost:8001/
+  column3:
     - name: news
       type: title
       value: "News & Content"
     - name: Floatplane
       type: link
       url: https://www.floatplane.com/channel/linustechtips/home
+    - name: LoFi ATC
+      type: link
+      url: https://www.lofiatc.com/?icao=KMHT
     - name: EndeavourOS News
       type: link
       url: https://endeavouros.com/news/
     - name: The Verge
       type: link
       url: https://theverge.com/
-  column3:
-    - name: homelab
-      type: title
-      value: "Homelab"
-    - name: Proxmox
-      type: link
-      url: https://proxmox.net.local/
-    - name: Portainer
-      type: link
-      url: https://portainer.net.local/
-    - name: Pi-hole
-      type: link
-      url: https://pihole.net.local/admin/
-    - name: Home Assistant
-      type: link
-      url: https://homeassistant.net.local/
   column4:
     - name: email
       type: title

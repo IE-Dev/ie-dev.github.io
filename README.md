@@ -1,8 +1,6 @@
 # ie-dev.github.io - Start Page
 ========
 
-
-
 ### Live Demo: <a href="https://ie-dev.github.io/">Demo</a>
 
 ## Building

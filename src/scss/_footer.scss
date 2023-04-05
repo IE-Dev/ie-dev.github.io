@@ -14,7 +14,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
 
@@ -38,5 +37,17 @@ footer {
 
   #copyright {
     text-align: right;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    width: 80%;
   }
 }

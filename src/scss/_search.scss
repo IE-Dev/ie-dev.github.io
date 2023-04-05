@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  width: calc(100% - 1em);
 
   label {
     display: none;
@@ -70,5 +69,15 @@
         background: transparentize($image-overlay, .68);
       }
     }
+  }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) {
+  #dynamic-search.input-group {
+    width: calc(100% - 1em);
   }
 }
