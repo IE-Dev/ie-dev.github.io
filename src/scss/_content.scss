@@ -18,13 +18,23 @@ li.link {
   }
 }
 
-@media (max-width: 767px) {
+.columns {
+  width: 100%;
+}
 
+@media (max-width: 767px) {
+  li.link {
+    a {
+      padding: 1em;
+      background: $button;
+      border-radius: 1em;
+      display: block;
+    }
+  }
 }
 
 @media (min-width: 768px) {
   .columns {
-    width: 100%;
     display: grid;
     grid-column-gap: 30px;
     grid-row-gap: 0;
