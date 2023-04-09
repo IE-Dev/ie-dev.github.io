@@ -80,6 +80,9 @@ columns:
     - name: Portainer
       type: link
       url: https://portainer.ai-ho.me/
+    - name: Uptime
+      type: link
+      url: https://uptime.ai-ho.me/
   column4:
     - name: email
       type: title
