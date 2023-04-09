@@ -9,4 +9,6 @@ RUN apt-get update \
 RUN curl -sSk https://getcomposer.org/installer | php -- --disable-tls && \
        mv composer.phar /usr/local/bin/composer
 
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
 EXPOSE 80

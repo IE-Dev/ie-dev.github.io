@@ -11,10 +11,19 @@ Building requires Node and PHP. Yeah, I know, Cringe, I was lazy with the html p
 2. swap out the assets in the image folder.
 3. build using the following commands
 
+``` bash
+docker-compose up -d
 ```
+
+Connect to the docker container
+
+``` bash
+nvm install
 nvm use
-yarn install
-yarn run build
+npm install -g pnpm
+
+pnpm install
+pnpm run build
 
 composer install
 php build.php
@@ -32,4 +41,4 @@ The response should be in the following format:
 
 I also recommend that you lock it down to specific domains / IP addresses, this will avoid hitting rate limiting and large charges from your provider.
 
-If you are struggling with setting up autocomplete, feel free to message me and I'll try to get back to you with some hints and tips.
+If you are struggling with setting up autocomplete, feel free to message me, and I'll try to get back to you with some hints and tips.

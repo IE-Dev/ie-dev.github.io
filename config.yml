@@ -71,6 +71,26 @@ columns:
       type: link
       url: http://localhost:8001/
   column3:
+    - name: homelab
+      type: title
+      value: "Homelab"
+    - name: Proxmox
+      type: link
+      url: https://proxmox.ai-ho.me/
+    - name: Portainer
+      type: link
+      url: https://portainer.ai-ho.me/
+  column4:
+    - name: email
+      type: title
+      value: "Email"
+    - name: Gmail
+      type: link
+      url: https://mail.google.com/mail/
+    - name: Outlook
+      type: link
+      url: https://outlook.live.com/mail/
+  column5:
     - name: news
       type: title
       value: "News & Content"
@@ -86,23 +106,6 @@ columns:
     - name: The Verge
       type: link
       url: https://theverge.com/
-  column4:
-    - name: email
-      type: title
-      value: "Email"
-    - name: Gmail
-      type: link
-      url: https://mail.google.com/mail/
-    - name: Outlook
-      type: link
-      url: https://outlook.live.com/mail/
-  column5:
-    - name: docs
-      type: title
-      value: "Docs"
-    - name: DevDocs
-      type: link
-      url: https://devdocs.io/
   column6:
     - name: social
       type: title
@@ -114,14 +117,17 @@ columns:
       type: link
       url: https://twitter.com/home
   column7:
-    - name: tools
+    - name: docs-tools
       type: title
-      value: "Tools"
+      value: "Docs & Tools"
+    - name: DevDocs
+      type: link
+      url: https://devdocs.io/
     - name: Monkeytype
       type: link
       url: https://monkeytype.com/
 network:
-  - name: unifi.net.local
-    url: https://unifi.net.local/
+  - name: Unifi
+    url: https://unifi.ai-ho.me/
   - name: fast.com
     url: https://fast.com/
