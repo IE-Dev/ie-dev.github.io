@@ -14,7 +14,7 @@
 	}
 	echo '</div>
 <div id="dynamic-time">built: ' . $now->format('l, jS') . ' of ' . $now->format('F Y H:i') . '</div>
-<div id="copyright"><a href="https://github.com/IE-Dev/ie-dev.github.io/fork">Fork on GitHub</a> | &copy; Ian Everall 2022</div>';
+<div id="copyright"><a href="https://github.com/IE-Dev/ie-dev.github.io/fork">Fork on GitHub</a> | &copy; Ian Everall 2022 - ' . date('Y') . '</div>';
 	?>
 </footer>
 

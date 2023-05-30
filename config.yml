@@ -23,8 +23,11 @@ columns:
     - name: Microsoft Rewards
       type: link
       url: https://rewards.bing.com/
+    - name: Humble Bundle
+      type: link
+      url: https://www.humblebundle.com/
   column1:
-    - name: development
+    - name: hosting-repos
       type: title
       value: "Hosting & Repos"
     - name: GitHub
@@ -49,7 +52,7 @@ columns:
       type: link
       url: https://spinupwp.app/dashboard
   column2:
-    - name: homelab
+    - name: development
       type: title
       value: "Development"
     - name: BugSnag
@@ -109,6 +112,9 @@ columns:
     - name: The Verge
       type: link
       url: https://theverge.com/
+    - name: The Linux Cast
+      type: link
+      url: https://thelinuxcast.org/
   column6:
     - name: social
       type: title
