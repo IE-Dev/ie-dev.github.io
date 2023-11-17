@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Source_Code_Pro } from 'next/font/google'
 import './globals.css'
 import data from '../../data.json';
 
-const inter = Inter({ subsets: ['latin'] })
+const SCP = Source_Code_Pro({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: data.title,
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + ' h-screen overflow-hidden'}>{children}</body>
+      <body className={SCP.className + ' h-screen overflow-hidden'}>{children}</body>
     </html>
   )
 }

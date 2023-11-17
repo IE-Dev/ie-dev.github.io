@@ -76,7 +76,7 @@ export default function Search({engines}: Props) {
     />
   })
 
-  return (<div className="relative">
+  return (<div className="relative w-full">
       <label htmlFor="search" className="hidden">Search</label>
 	  <div className="flex">
 		  <div className="relative w-full">
@@ -87,7 +87,7 @@ export default function Search({engines}: Props) {
 				  debounced(e.target.value)
 			  }} placeholder="Search..." />
 			  {results.length > 0 && (
-				  <div className="absolute inset-y-0 right-0 mr-2 flex items-center text-gray-400">
+				  <div className="invisible md:visible absolute inset-y-0 right-0 mr-2 flex items-center text-gray-400">
 					  <p className="text-xs py-0 pl-2 pr-0">ESC to cancel search</p>
 				  </div>
 			  )}

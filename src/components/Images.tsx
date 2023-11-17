@@ -36,7 +36,7 @@ export default function Images({images}: Props) {
 						key={img_index}
 						src={"/" + file}
 						alt={alt}
-						className={"absolute transition transition-opacity duration-1000 " + class_var}
+						className={" absolute transition transition-opacity duration-1000 " + class_var}
 						width={0}
 						height={0}
 						sizes="100vw"

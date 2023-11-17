@@ -25,32 +25,30 @@ export default async function Home() {
 	}
 
   return (
-    <main className="h-screen w-full grid grid-cols-2 gap-4">
+    <main className="h-screen w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
 
-	    <div className="relative max-h-screen">
-		    <div className="absolute inset-0  p-8">
+	    <div className="md:relative max-h-screen overflow-y-scroll no-scrollbar overflow-x-hidden lg:overflow-hidden">
+		    <div className="md:absolute md:inset-0 p-4 md:p-8">
 			    <header>
 				    <h1 className="hidden">{title}</h1>
 				    <Welcome />
 			    </header>
-			    <div>
-				    <Search engines={['google','duckduckgo','reddit']} />
-			    </div>
+			    <Search engines={['google','duckduckgo','reddit']} />
 
 			    {columns && (
-				    <div className="grid grid-cols-3 gap-4 mt-4">
+				    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
 				    {columns?.map((column, column_index) => {
 							return (
 								<div key={'col'+column_index} className="grid gap-4">
 									{column?.map(({title, links}, section_index) => {
 										return (
-											<div key={'sec'+section_index} className="max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+											<div key={'sec'+section_index} className="mx-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 												<h3 className="text-xl">{title}</h3>
 												{links && (
 													<ul>
 														{links?.map(({name, url}, link_index) => {
 															return (
-																<li key={'link'+link_index}><a href={url} title={name} className="text-violet-300 underline hover:text-violet-500">{name}</a></li>
+																<li key={'link'+link_index} className="bg-violet-500 rounded px-4 py-2 mb-2 last:mb-0 md:rounded-none md:bg-opacity-0 md:p-0 md:mb-0"><a href={url} title={name} className="text-violet-300 underline hover:text-violet-500">{name}</a></li>
 															)
 														})}
 													</ul>
@@ -64,20 +62,20 @@ export default async function Home() {
 				    </div>
 			    )}
 
-			    <footer className="absolute bottom-8 w-full pr-16">
+			    <footer className="lg:absolute lg:bottom-8 w-full lg:pr-16 pb-8 lg:pb-0">
 				    <>
 					    {network.length > 0 && (
-								<div className="flex text-sm mb-2">
-									<p className="mr-2">Network Quick Links:</p>
+								<div className="lg:flex lg:text-sm mb-2">
+									<p className="p-2 lg:p-0 lg:mr-2 text-center lg:text-left">Network Quick Links:</p>
 									{network?.map(({name, url}, link_index) => {
 										return (
-											<div key={'net'+link_index}><a href={url} title={name} className="text-violet-300 underline hover:text-violet-500 mr-2">{name}</a></div>
+											<a key={'net'+link_index} href={url} title={name} className="text-violet-300 underline hover:text-violet-500 text-center lg:text-left block lg:inline p-2 lg:p-0 lg:mr-2">{name}</a>
 										)
 									})}
 								</div>
 					    )}
 						</>
-				    <div className="flex justify-between">
+				    <div className="text-center lg:text-left lg:flex justify-between">
 					    <DateClock />
 					    <div id="copyright"><a href="https://github.com/IE-Dev/ie-dev.github.io/fork" className="text-violet-300 underline hover:text-violet-500">Fork on GitHub</a> | &copy; Ian Everall 2022 - <Year /></div>
 				    </div>
@@ -85,7 +83,7 @@ export default async function Home() {
 		    </div>
 	    </div>
 
-	    <div className="relative">
+	    <div className="relative invisible lg:visible">
 		    <div className="z-50 absolute left-0 right-0 top-0 h-full w-full bg-violet-500 opacity-70"></div>
 		    <Images images={images} />
 	    </div>
