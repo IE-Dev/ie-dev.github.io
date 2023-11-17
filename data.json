@@ -1,0 +1,94 @@
+{
+  "title": "IE-Dev Start Page",
+  "description": "Ian Everall - Home screen with quick links",
+  "images": [
+    {"file": "ian_and_aleisha_ns7fdq", "alt": "Me and the wife", "position":  "center center"},
+    {"file": "ellie_vnyvbg", "alt": "My Dog", "position":  "center center"},
+    {"file": "ian_and_aleisha2_huxf28", "alt": "Me and the wife", "position":  "center center"},
+    {"file": "our_wedding_day_wlmzjm", "alt": "Our Wedding Day", "position":  "center center"}
+  ],
+  "sections": [
+    {
+      "title": "Favourite Links",
+      "links": [
+        {"name": "Youtube", "url": "https://www.youtube.com/"},
+        {"name": "Reddit", "url": "https://www.reddit.com/"},
+        {"name": "Amazon", "url": "https://www.amazon.co.uk/"},
+        {"name": "Microsoft Rewards", "url": "https://rewards.bing.com/"},
+        {"name": "Humble Bundle", "url": "https://www.humblebundle.com/"}
+      ]
+    },
+    {
+      "title": "Email",
+      "links": [
+        {"name": "Gmail", "url": "https://mail.google.com/mail/"},
+        {"name": "Outlook", "url": "https://outlook.live.com/mail/"}
+      ]
+    },
+    {
+      "title": "News & Content",
+      "links": [
+        {"name": "Floatplane", "url": "https://www.floatplane.com/channel/linustechtips/home"},
+        {"name": "LoFi ATC", "url": "https://www.lofiatc.com/?icao=KMHT"},
+        {"name": "EndeavourOS News", "url": "https://endeavouros.com/news/"},
+        {"name": "The Verge", "url": "https://theverge.com/"},
+        {"name": "The Linux Cast", "url": "https://thelinuxcast.org/"}
+      ]
+    },
+    {
+      "title": "Home Automation",
+      "links": [
+        {"name": "Home Assistant", "url": "https://homeassistant.ai-ho.me/"},
+        {"name": "Zigbee2MQTT", "url": "https://zigbee2mqtt.ai-ho.me/"},
+        {"name": "ESPHome", "url": "https://esphome.ai-ho.me/"},
+        {"name": "Node-RED", "url": "https://node-red.ai-ho.me/"}
+      ]
+    },
+    {
+      "title": "Homelab",
+      "links": [
+        {"name": "Proxmox", "url": "https://proxmox.ai-ho.me/"},
+        {"name": "Portainer", "url": "https://portainer.ai-ho.me/"},
+        {"name": "Uptime", "url": "https://uptime.ai-ho.me/"}
+      ]
+    },
+    {
+      "title": "Docs & Tools",
+      "links": [
+        {"name": "DevDocs", "url": "https://devdocs.io/"},
+        {"name": "Monkeytype", "url": "https://monkeytype.com/"}
+      ]
+    },
+    {
+      "title": "Hosting & Repos",
+      "links": [
+        {"name": "GitHub","url": "https://github.com/"},
+        {"name": "Bitbucket","url": "https://bitbucket.org/"},
+        {"name": "Docker Hub","url": "https://hub.docker.com/"},
+        {"name": "Cloudflare","url": "https://dash.cloudflare.com/"},
+        {"name": "AWS","url": "https://eu-west-2.console.aws.amazon.com/console/home?nc2=h_ct&region=eu-west-2"},
+        {"name": "Linode","url": "https://cloud.linode.com/"},
+        {"name": "SpinupWP","url": "https://spinupwp.app/dashboard"}
+      ]
+    },
+    {
+      "title": "Development",
+      "links": [
+        {"name": "BugSnag", "url": "https://app.bugsnag.com/"},
+        {"name": "Mailpit", "url": "http://localhost:8025/#"},
+        {"name": "MeiliSearch", "url": "http://localhost:7700/"}
+      ]
+    },
+    {
+      "title": "Social",
+      "links": [
+        {"name": "Mastodon", "url": "https://mastodonapp.uk/"},
+        {"name": "Twitter", "url": "https://twitter.com/home"}
+      ]
+    }
+  ],
+  "network": [
+    {"name": "Unifi", "url": "https://unifi.ai-ho.me/"},
+    {"name": "fast.com", "url": "https://fast.com/"}
+  ]
+}
