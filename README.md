@@ -5,28 +5,17 @@
 
 ## Building
 
-Building requires Node and PHP. Yeah, I know, Cringe, I was lazy with the html part 🤣...
+Building requires Node, this is built using Next.js.
 
-1. edit the `config.yml`
-2. swap out the assets in the image folder.
-3. build using the following commands
-
-``` bash
-docker-compose up -d
-```
-
-Connect to the docker container
+1. edit the `data.json`
+2. build using the following commands
 
 ``` bash
 nvm install
 nvm use
-npm install -g pnpm
 
-pnpm install
-pnpm run build
-
-composer install
-php build.php
+npm install
+npm run build
 ```
 
 ## Autocomplete Requirements
